@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rezervația Orheiul-Vechi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- STYLE -->
+</head>
+
+<body>
+    <header class="header" id="header">
+    <div class=" header__container">
+        <div class="header__logo">
+            <a href="/">
+                <img src="img/logo.svg" alt="Logo">
+                <small class="logo__subtitle">rezervatia orheiul vechi</small>
+            </a>
+        </div>
+
+        <div class="burger">
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="nav header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="/" class="nav__link active">Acasa</a></li>
+                <li class="nav__item">
+                    <a href="natural_patrimonium.html" class="nav__link">Patrimoniul Natural</a>
+                    <ul class="nav__sublist">
+                        <li class="nav__subitem"><a href="#" class="nav__sublink">activitati</a></li>
+                        <li class="nav__subitem"><a href="#" class="nav__sublink">structuri geografice</a></li>
+                        <li class="nav__subitem"><a href="#" class="nav__sublink">cazare</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item"><a href="patrimoniul_cultural.html" class="nav__link">Patrimoniul Cultural</a></li>
+                <li class="nav__item"><a href="turism.html" class="nav__link">Turism</a></li>
+                <li class="nav__item"><a href="gallery.html" class="nav__link">Galerie</a></li>
+                <li class="nav__item"><a href="news.html" class="nav__link">Noutati</a></li>
+            </ul>
+        </nav>
+
+        <div class="header__search-block">
+            <form action="#" method="GET" class="search__form">
+                <input type="search">
+            </form>
+            <button class="search__close">
+                <svg width="15" height="15" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.141602 0.834488C-0.0458984 0.646988 -0.0458984 0.334925 0.141602 0.140869C0.335657 -0.0466309 0.641164 -0.0466309 0.83522 0.140869L4.99737 4.31001L9.16651 0.140869C9.35401 -0.0466309 9.66608 -0.0466309 9.85314 0.140869C10.0472 0.334925 10.0472 0.647425 9.85314 0.834488L5.69099 4.99708L9.85314 9.16622C10.0472 9.35372 10.0472 9.66578 9.85314 9.85984C9.66564 10.0473 9.35358 10.0473 9.16651 9.85984L4.99737 5.69069L0.83522 9.85984C0.641164 10.0473 0.335657 10.0473 0.141602 9.85984C-0.0458984 9.66578 -0.0458984 9.35328 0.141602 9.16622L4.30375 4.99708L0.141602 0.834488Z" fill="#2F2222"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="header__right">
+            <button class="header__search">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="search">
+                    <path id="Path5" d="M14.4121 14.4121L20 20" stroke="#2C2C2C" stroke-linecap="round"/>
+                    <path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4C6.68629 4 4 6.68629 4 10C4 13.3137 6.68629 16 10 16Z" stroke="#2C2C2C"/>
+                    </g>
+                </svg>
+            </button>
+
+            <div class="header__languages">
+                <a href="#" class="language active">RO</a>
+                <a href="#" class="language">EN</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <main id="main">
+        <div class="contact">
+            <div class="container">
+                <h2 class="contact__title">CONTACTS</h2>
+                <div class="contact__body">
+                    <h4 class="contact__body-title">Scrie un mesaj</h4>
+                    <form action="#" class="contact__body-form">
+                        <div class="contact-form__body">
+                            <div class="contact-form__field">
+                                <label for="name" class="contact-form__label">Nume</label>
+                                <input type="text" id="name" class="contact-form__input">
+                            </div>
+
+                            <div class="contact-form__field">
+                                <label for="lastname" class="contact-form__label">Prenume</label>
+                                <input type="text" id="lastname" class="contact-form__input">
+                            </div>
+
+                            <div class="contact-form__field">
+                                <label for="email" class="contact-form__label">E-mail</label>
+                                <input type="email" id="email" class="contact-form__input">
+                            </div>
+
+                            <div class="contact-form__field">
+                                <label for="phone" class="contact-form__label">Phone</label>
+                                <input type="tel" id="phone" class="contact-form__input">
+                            </div>
+
+                            <div class="contact-form__field">
+                                <label for="message" class="contact-form__label">Mesaj</label>
+                                <textarea name="message" id="message" class="contact-form__textarea" placeholder="Scrie mesajul tau"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="contact__submit accent-btn">Trimite</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact__data">
+            <div class="container contact__data-container">
+                <div class="contact__data-info">
+                    <img class="contact__data-img" src="img/phone.svg" alt="Phone">
+                    <h4 class="contact__data-title">TELEFON:</h4>
+                    <a href="tel:+37360808954" class="contact__data-text">+373 60 80 89 54</a>
+                </div>
+
+                <div class="contact__data-info">
+                    <img class="contact__data-img" src="img/sticker.svg" alt="FAX">
+                    <h4 class="contact__data-title">FAX:</h4>
+                    <p class="contact__data-text">43983U95893242</p>
+                </div>
+
+                <div class="contact__data-info">
+                    <img class="contact__data-img" src="img/email.svg" alt="Email">
+                    <h4 class="contact__data-title">E-MAIL:</h4>
+                    <a href="mailto:orheiulvechi@gmail.com" class="contact__data-text">orheiulvechi@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__left">
+            <a href="/">
+                <img src="img/logo.svg" alt="Footer Logo" class="footer__logo">
+            </a>
+            <small class="logo__subtitle">rezervația orhei vechi</small>
+
+            <address class="footer__address">2715 Ash Dr.San Jose,South Dakota 83475</address>
+
+            <div class="footer__contact">
+                <a href="#" class="facebook__link">
+                    <img src="img/facebook.svg" alt="facebook link" class="facebook">
+                </a>
+                <a href="#" class="contact__link">Contacte</a>
+            </div>
+        </div>
+
+        <div class="footer__lists">
+            <div class="footer__block-list">
+                <h4 class="list__title">Patrimoniul natural</h4>
+                <ul class="list">
+                    <li class="list_item"><a class="list_link" href="#">Sistemele acvatice</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Structuri geologice</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Fauna</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Flora</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__block-list">
+                <h4 class="list__title">Patrimoniul natural</h4>
+                <ul class="list">
+                    <li class="list_item"><a class="list_link" href="#">Stiluri Arhiologice</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Arhiterctura Mediavala</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Complexe Lupestre</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Patrimoniu Etnografic</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Patrimoniu Patrimoniu Mobil</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__block-list">
+                <h4 class="list__title">Turism</h4>
+                <ul class="list">
+                    <li class="list_item"><a class="list_link" href="#">Reguli de vizitare</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Atractii turistice</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Traseie turestice (harta cu traseie)</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Servicii oferite</a></li>
+                    <li class="list_item"><a class="list_link" href="#">Cazare</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="to_top">
+            <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="27.5" cy="27.5" r="27" stroke="#E0E0E0"/>
+                <path d="M20.4282 20.4287L27.8925 14.143L35.3568 20.4287" stroke="#2C2C2C"/>
+                <line x1="28" y1="14.1431" x2="28" y2="40.8573" stroke="#2C2C2C"/>
+            </svg>
+        </button>
+    </div>
+
+    <div class="footer__copyright">
+        <small>Copyright © 2021 Orheiul Vechi | </small>
+    </div>
+</footer>
+
+
+    <!-- SCRTIPTS -->
+    <script src="js/script.min.js "></script>
+    <!-- SCRTIPTS -->
+</body>
+
+</html>
